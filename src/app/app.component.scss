@@ -1,0 +1,11 @@
+div.container {
+    display: flex;
+    div.card {
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 5px;
+        > img {
+            height: 100px;
+        }
+    }
+}
